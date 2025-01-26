@@ -1,0 +1,203 @@
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* width: 100%; */
+  /* background-color: #f5f5f5; */
+
+  /* padding: 40px; */
+  /* flex-wrap: wrap; Allows wrapping for small screens */
+}
+
+
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 600px;
+  /* background-color: #0056b3; */
+}
+/* .img{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border-radius: 10px;
+  height: 100%;
+  width: 40%;
+  background-color: red;
+} */
+
+
+.signin-container {
+  background: #ffffff;
+  padding: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content */
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Ensures button spans the form width */
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .signin-page {
+      flex-direction: column; /* Stack the image and form vertically */
+      height: auto; /* Adjust height for scrolling */
+  }
+
+  .image-container,
+  .signin-container {
+      flex: unset;
+      width: 100%;
+      padding: 20px;
+  }
+
+  .signin-container {
+      margin: 0;
+      max-width: 100%; /* Full width on smaller screens */
+  }
+
+  .submit-btn {
+      font-size: 16px; /* Adjust button font size */
+  }
+}
+
+
+/* login */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  background-color: #f5f5f5;
+
+  /* padding: 40px; */
+  flex-wrap: wrap; /* Allows wrapping for small screens */
+}
+
+
+
+
+
+.login-container {
+  flex: 1;
+  background: #ffffff;
+  padding: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 400px; /* Reduce the width */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Ensures button spans the form width */
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .signin-page {
+      flex-direction: column; /* Stack the image and form vertically */
+      height: auto; /* Adjust height for scrolling */
+  }
+
+  .image-container,
+  .login-container {
+      flex: unset;
+      width: 100%;
+      padding: 20px;
+  }
+
+  .login-container {
+      margin: 0;
+      max-width: 100%; /* Full width on smaller screens */
+  }
+
+  .submit-btn {
+      font-size: 16px; /* Adjust button font size */
+  }
+}
